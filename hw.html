@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework</title>
+  </head>
+  <body>
+    <script>
+      function Greet(name) {
+        console.log("Hello, " + name + " How are you doing today" + "!");
+      }
+
+      Greet("Bob");
+
+      function isOldEnoughToEnter(age) {
+        if (age >= 21) {
+          console.log("Welcome");
+        } else {
+          console.log("Your not Old enough");
+        }
+      }
+      isOldEnoughToEnter(15);
+      isOldEnoughToEnter(25);
+
+      function calculateRectangleArea(a, b) {
+        console.log(a * b);
+      }
+
+      calculateRectangleArea(5, 10);
+
+      function convertFarenheit(a, b, c) {
+        console.log(a * (b - c));
+      }
+
+      convertFarenheit(5 / 9, 100, 32);
+
+      function isEven(age) {
+        if (age % 2 == 0) {
+          console.log("even");
+        } else {
+          console.log("odd");
+        }
+      }
+      isEven(100);
+      isEven(91);
+
+      function calculateAverage(a, b, c) {
+        console.log((a * b * c) / 3);
+      }
+
+      calculateAverage(10, 2, 3);
+
+      function convertMinutes(minutes) {
+        const hours = Math.floor(minutes / 60);
+        const remainig_minutes = minutes % 60;
+        console.log(hours + " hours " + remainig_minutes + " minutes");
+      }
+      convertMinutes(110);
+
+      function getTicketPrice(age) {
+        if (age >= 60) {
+          return "15$";
+        } else if (age >= 18) {
+          return "20$";
+        } else {
+          return "5$";
+        }
+      }
+
+      const result1 = getTicketPrice(10);
+      console.log(result1);
+      const result2 = getTicketPrice(20);
+      console.log(result2);
+      const result3 = getTicketPrice(64);
+      console.log(result3);
+
+      for (let i = 0; i < 5; i++) {
+        console.log("Hello World!");
+      }
+    </script>
+
+    Hi Bob
+  </body>
+</html>
