@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+#counter-container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  color: #2b3d52;
+}
+
+#counter-value {
+  font-size: 3em;
+  color: #3a5a40;
+  margin: 20px 0;
+  text-align: center;
+}
+
+#buttons button {
+  font-size: 1em;
+  padding: 10px 20px;
+  margin: 5px;
+  border: 2px solid #2b3d52;
+  background-color: white;
+  color: #2b3d52;
+  cursor: pointer;
+}
